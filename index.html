@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddharam Kore | Custom Software Developer & Business Automation Agency</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Transform your business with custom digital solutions: Websites, Mobile Apps (iOS/Android), Gym Management, Retail POS, Admin Dashboards, and WhatsApp Automation by Siddharam Kore.">
+    <meta name="keywords" content="Software Developer, Business Automation, Business Website Development, Mobile App Development, Gym Management Software, Custom Business Software, Google Review QR System, Retail Software, Siddharam Kore">
+    <meta name="author" content="Siddharam Kore">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Custom Software Development & Business Automation Agency | Siddharam Kore">
+    <meta property="og:description" content="Complete digital systems for local & SMB businesses. Manage customers, payments, bookings, inventory, and automated notifications from one place.">
+    <meta property="og:image" content="./assets/images/hero_dashboard.jpg">
+
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Schema.org JSON-LD Structured Data for Local Business & Developer -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Siddharam Kore - Custom Software & Automation Agency",
+      "image": "./assets/images/developer_profile.jpg",
+      "telephone": "+91 7057453662",
+      "email": "siddharamkore18@gmail.com",
+      "priceRange": "$$",
+      "description": "Custom Software Development, Web & Mobile Applications, Business Management Systems, and WhatsApp Automation for local & SMB businesses.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "IN"
+      },
+      "knowsAbout": ["Software Development", "Business Automation", "Flutter", "Spring Boot", "Gym Software", "Retail POS"]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Ambient Glow FX -->
+    <div class="ambient-glow ambient-1"></div>
+    <div class="ambient-glow ambient-2"></div>
+    <div class="ambient-glow ambient-3"></div>
+
+    <!-- Sticky Navigation Bar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-name">Siddharam Kore</span>
+                    <span class="logo-tag">SOFTWARE & AUTOMATION</span>
+                </div>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#solutions" class="nav-link">Solutions</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-cta">
+                <button class="btn btn-primary btn-sm" onclick="openModal('consultationModal')">
+                    Get Free Consultation <i class="fa-solid fa-calendar-check"></i>
+                </button>
+                <button class="mobile-toggle" aria-label="Toggle Mobile Navigation Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-menu">
+        <button class="mobile-menu-close" aria-label="Close Mobile Menu"><i class="fa-solid fa-xmark"></i></button>
+        <div class="mobile-nav-links">
+            <a href="#home" class="mobile-nav-link active">Home</a>
+            <a href="#services" class="mobile-nav-link">Services</a>
+            <a href="#solutions" class="mobile-nav-link">Solutions</a>
+            <a href="#projects" class="mobile-nav-link">Projects</a>
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+        </div>
+        <div>
+            <button class="btn btn-primary btn-lg" style="width:100%" onclick="closeMobileMenu(); openModal('consultationModal');">
+                Get Free Consultation
+            </button>
+        </div>
+    </div>
+
+    <!-- Main Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span> Available for New Business Projects
+                </div>
+
+                <h1 class="hero-title">
+                    Transform Your Business with <span class="gradient-text">Custom Digital Solutions</span>
+                </h1>
+
+                <p class="hero-subheading">
+                    Websites, Mobile Apps, Business Management Systems & Automation — Built Around Your Business.
+                </p>
+
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-lg" onclick="openModal('consultationModal')">
+                        Get Free Consultation <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                    <a href="#services" class="btn btn-secondary btn-lg">
+                        View My Services <i class="fa-solid fa-layer-group"></i>
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Tailored Custom Code</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Automated Workflows</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10x</span>
+                        <span class="stat-label">Efficiency Boost</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technology / Developer Visual -->
+            <div class="hero-visual">
+                <div class="visual-card">
+                    <div class="visual-header">
+                        <div class="mac-dots">
+                            <span class="mac-dot red"></span>
+                            <span class="mac-dot yellow"></span>
+                            <span class="mac-dot green"></span>
+                        </div>
+                        <span class="visual-title">business_system_architecture.v1.0</span>
+                        <span style="color:var(--accent-emerald); font-size:0.75rem;"><i class="fa-solid fa-signal"></i> System Online</span>
+                    </div>
+                    <div class="visual-img-wrapper">
+                        <img src="./assets/images/hero_dashboard.jpg" alt="Business Management Dashboard & Automation System" class="visual-img">
+                    </div>
+                </div>
+
+                <!-- Floating Badges -->
+                <div class="floating-badge floating-badge-1">
+                    <div class="badge-icon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div class="badge-text">
+                        <strong>WhatsApp Automation</strong>
+                        <span>Auto Expiry & Payment Alerts</span>
+                    </div>
+                </div>
+
+                <div class="floating-badge floating-badge-2">
+                    <div class="badge-icon" style="background:var(--accent-indigo)">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div class="badge-text">
+                        <strong>Cloud Database</strong>
+                        <span>Encrypted & Fast Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Selling Point Section -->
+    <section class="selling-point">
+        <div class="container">
+            <div class="selling-content">
+                <div class="selling-header">
+                    <span class="section-tag"><i class="fa-solid fa-lightbulb"></i> Complete Ecosystem</span>
+                    <h2 class="selling-title">More Than Just a Website</h2>
+                    <p class="selling-text">
+                        “Your business may need more than a website. I build complete digital solutions that can help manage customers, payments, bookings, notifications, reviews and daily operations from one place.”
+                    </p>
+                </div>
+
+                <!-- Interactive Visual System Flow -->
+                <div class="flow-container">
+                    <div class="flow-node active" data-flow="business">
+                        <div class="flow-icon"><i class="fa-solid fa-building-user"></i></div>
+                        <div class="flow-title">1. Business</div>
+                    </div>
+                    <span class="flow-arrow"><i class="fa-solid fa-chevron-right"></i></span>
+
+                    <div class="flow-node" data-flow="website">
+                        <div class="flow-icon"><i class="fa-solid fa-globe"></i></div>
+                        <div class="flow-title">2. Website</div>
+                    </div>
+                    <span class="flow-arrow"><i class="fa-solid fa-chevron-right"></i></span>
+
+                    <div class="flow-node" data-flow="mobile">
+                        <div class="flow-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                        <div class="flow-title">3. Mobile App</div>
+                    </div>
+                    <span class="flow-arrow"><i class="fa-solid fa-chevron-right"></i></span>
+
+                    <div class="flow-node" data-flow="dashboard">
+                        <div class="flow-icon"><i class="fa-solid fa-sliders"></i></div>
+                        <div class="flow-title">4. Admin Dashboard</div>
+                    </div>
+                    <span class="flow-arrow"><i class="fa-solid fa-chevron-right"></i></span>
+
+                    <div class="flow-node" data-flow="automation">
+                        <div class="flow-icon"><i class="fa-solid fa-robot"></i></div>
+                        <div class="flow-title">5. Automation</div>
+                    </div>
+                    <span class="flow-arrow"><i class="fa-solid fa-chevron-right"></i></span>
+
+                    <div class="flow-node" data-flow="reports">
+                        <div class="flow-icon"><i class="fa-solid fa-chart-column"></i></div>
+                        <div class="flow-title">6. Reports</div>
+                    </div>
+                </div>
+
+                <div class="flow-detail-box" id="flowDetailBox">
+                    <strong>Click on any step above</strong> to explore how each layer connects your business operations into a single automated engine!
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section (14 Specified Services Grid) -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fa-solid fa-cogs"></i> What I Build For You</span>
+                <h2 class="section-title">Comprehensive Business Services</h2>
+                <p class="section-subtitle">From customer acquisition to daily operational automation, explore custom modules designed to run your business smoothly.</p>
+            </div>
+
+            <div class="services-grid" id="servicesGrid">
+                <!-- Dynamically populated from config.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Solutions Section -->
+    <section id="solutions" class="solutions-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Tailored Systems</span>
+                <h2 class="section-title">Digital Solutions for Every Business Type</h2>
+                <p class="section-subtitle">Dedicated feature-rich management architectures customized for key industry verticals.</p>
+            </div>
+
+            <div class="solutions-tabs">
+                <button class="solution-tab active" data-cat="all"><i class="fa-solid fa-border-all"></i> All Solutions</button>
+                <button class="solution-tab" data-cat="gym"><i class="fa-solid fa-dumbbell"></i> Gym & Fitness</button>
+                <button class="solution-tab" data-cat="retail"><i class="fa-solid fa-shop"></i> Retail & Shops</button>
+                <button class="solution-tab" data-cat="hotels"><i class="fa-solid fa-hotel"></i> Hotels & Restaurants</button>
+                <button class="solution-tab" data-cat="clinics"><i class="fa-solid fa-user-doctor"></i> Clinics</button>
+            </div>
+
+            <div class="solution-card-wrapper">
+                <!-- Gym Solution Card -->
+                <div class="solution-card" data-category="gym">
+                    <div class="solution-card-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                    <h3 class="solution-card-title">Gym & Fitness</h3>
+                    <p class="solution-card-desc">End-to-end management software for fitness centers, studios, and personal trainers.</p>
+                    <div class="solution-list">
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Member Profiles & Digital Cards</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Membership & Payment Tracking</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> QR Code Attendance Check-in</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Renewal & Expiry WhatsApp Notifications</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Workout & Diet Plan Sharing</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Admin Revenue & Attendance Dashboard</div>
+                    </div>
+                    <button class="btn btn-outline btn-sm" onclick="openModal('consultationModal')">Inquire Gym System</button>
+                </div>
+
+                <!-- Retail Solution Card -->
+                <div class="solution-card" data-category="retail">
+                    <div class="solution-card-icon"><i class="fa-solid fa-bag-shopping"></i></div>
+                    <h3 class="solution-card-title">Retail & Shops</h3>
+                    <p class="solution-card-desc">Modern point-of-sale (POS) and inventory control platform for shop owners and wholesalers.</p>
+                    <div class="solution-list">
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Product & Barcode Management</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Customer Credit Ledger (Udhar Book)</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Dynamic Pricing & Discounts</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Real-time Stock Management & Alerts</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Fast Billing & Sales Records</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Profit & Loss Financial Reports</div>
+                    </div>
+                    <button class="btn btn-outline btn-sm" onclick="openModal('consultationModal')">Inquire Retail System</button>
+                </div>
+
+                <!-- Hotels & Restaurants Card -->
+                <div class="solution-card" data-category="hotels">
+                    <div class="solution-card-icon"><i class="fa-solid fa-hotel"></i></div>
+                    <h3 class="solution-card-title">Hotels & Restaurants</h3>
+                    <p class="solution-card-desc">Boost direct bookings, online orders, guest retention, and 5-star Google review collection.</p>
+                    <div class="solution-list">
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> High-Converting Brand Website</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Room & Table Booking Engine</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Guest Profiles & Contact Database</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> WhatsApp Festive Offers & Broadcasts</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Instant Customer Feedback Triggers</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Google Review QR Stand System</div>
+                    </div>
+                    <button class="btn btn-outline btn-sm" onclick="openModal('consultationModal')">Inquire Hotel System</button>
+                </div>
+
+                <!-- Clinics Card -->
+                <div class="solution-card" data-category="clinics">
+                    <div class="solution-card-icon"><i class="fa-solid fa-user-doctor"></i></div>
+                    <h3 class="solution-card-title">Clinics & Healthcare</h3>
+                    <p class="solution-card-desc">Streamline doctor appointments, digital prescriptions, and patient records effortlessly.</p>
+                    <div class="solution-list">
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Digital Patient Record History</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> 24/7 Appointment Booking System</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Automated SMS & WhatsApp Reminders</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Doctor Schedule & OPD Timings</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Billing & Consultation Receipts</div>
+                        <div class="solution-item"><i class="fa-solid fa-circle-check"></i> Executive Clinic Admin Dashboard</div>
+                    </div>
+                    <button class="btn btn-outline btn-sm" onclick="openModal('consultationModal')">Inquire Clinic System</button>
+                </div>
+
+                <!-- Custom Solution Card -->
+                <div class="custom-solution-card">
+                    <div class="custom-solution-info">
+                        <span class="section-tag" style="margin-bottom:8px;"><i class="fa-solid fa-wand-magic-sparkles"></i> Need Something Unique?</span>
+                        <h3>Custom Business Solution</h3>
+                        <p>Have a different business or specialized operational workflow? Tell me your exact requirements and I will build a tailored solution specifically for your team.</p>
+                    </div>
+                    <button class="btn btn-primary btn-lg" onclick="openModal('customSolutionModal')">
+                        Tell Me Your Requirements <i class="fa-solid fa-comment-dots"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Review Automation Section -->
+    <section class="qr-section">
+        <div class="container">
+            <div class="qr-box">
+                <div class="qr-info">
+                    <span class="section-tag"><i class="fa-solid fa-star"></i> Reputation Growth System</span>
+                    <h2>Get More Customer Reviews with a Simple QR Scanner</h2>
+                    <p>Make it easier for your satisfied customers to reach your Google Review page. Customers can simply scan a custom tabletop acrylic QR code and quickly open your Google Review submission page in seconds.</p>
+
+                    <div class="qr-flow-steps">
+                        <div class="qr-step-item">
+                            <div class="qr-step-icon"><i class="fa-solid fa-user"></i></div>
+                            <div class="qr-step-label">1. Customer</div>
+                        </div>
+                        <div class="qr-step-item">
+                            <div class="qr-step-icon"><i class="fa-solid fa-qrcode"></i></div>
+                            <div class="qr-step-label">2. Scan QR</div>
+                        </div>
+                        <div class="qr-step-item">
+                            <div class="qr-step-icon"><i class="fa-brands fa-google"></i></div>
+                            <div class="qr-step-label">3. Google Review</div>
+                        </div>
+                        <div class="qr-step-item">
+                            <div class="qr-step-icon"><i class="fa-solid fa-paper-plane"></i></div>
+                            <div class="qr-step-label">4. Submit Review</div>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn btn-primary btn-lg">
+                        Ask About Review Automation <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Interactive QR Simulator Card -->
+                <div class="qr-simulator-card">
+                    <h4 style="margin-bottom:12px; font-size:1.1rem;"><i class="fa-solid fa-sliders"></i> Test Live QR Generator</h4>
+                    <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:16px;">Type your business name below to preview your custom Google Review QR code:</p>
+
+                    <input type="text" id="qrBusinessName" class="qr-gen-input" placeholder="e.g. MK Fitness Gym" value="MK Fitness Gym">
+                    <button id="qrGenerateBtn" class="btn btn-secondary btn-sm" style="margin-bottom:20px; width:100%;">
+                        Generate Preview QR <i class="fa-solid fa-rotate"></i>
+                    </button>
+
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https://search.google.com/local/writereview?placeid=MK%20Fitness%20Gym&color=060913&format=png" alt="Google Review QR Code Preview" id="qrImageDisplay" class="qr-img-preview">
+                    
+                    <span style="font-size:0.78rem; color:var(--accent-cyan); font-weight:600;">
+                        <i class="fa-solid fa-shield"></i> Instant frictionless review collection display
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works (4-Step Process) -->
+    <section class="process-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fa-solid fa-route"></i> Simple Process</span>
+                <h2 class="section-title">How We Work Together</h2>
+                <p class="section-subtitle">A simple, transparent 4-step execution path from initial discussion to full deployment.</p>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-card">
+                    <div class="process-num">01</div>
+                    <h3 class="process-title">Understand</h3>
+                    <p class="process-desc">I take the time to understand your business process, daily operational challenges, and exact requirements.</p>
+                </div>
+
+                <div class="process-card">
+                    <div class="process-num">02</div>
+                    <h3 class="process-title">Plan</h3>
+                    <p class="process-desc">I map out clear areas where custom software, web apps, and automated workflows can save time and boost profit.</p>
+                </div>
+
+                <div class="process-card">
+                    <div class="process-num">03</div>
+                    <h3 class="process-title">Develop</h3>
+                    <p class="process-desc">I engineer your custom website, mobile application, admin dashboard, and notification triggers with clean code.</p>
+                </div>
+
+                <div class="process-card">
+                    <div class="process-num">04</div>
+                    <h3 class="process-title">Launch & Support</h3>
+                    <p class="process-desc">I deploy the complete solution to production, train your team, and provide reliable ongoing technical support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Me -->
+    <section class="why-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fa-solid fa-thumbs-up"></i> Value Focus</span>
+                <h2 class="section-title">Why Business Owners Partner With Me</h2>
+                <p class="section-subtitle">Clear technical standards and dedicated support focused on solving practical business problems.</p>
+            </div>
+
+            <div class="why-grid">
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-check"></i></div>
+                    <div class="why-text">Custom-built solutions tailored to your exact workflow</div>
+                </div>
+
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-check"></i></div>
+                    <div class="why-text">Modern, intuitive & clean UI/UX interface design</div>
+                </div>
+
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-check"></i></div>
+                    <div class="why-text">Cross-platform Mobile (iOS/Android) & Web Applications</div>
+                </div>
+
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-check"></i></div>
+                    <div class="why-text">WhatsApp, SMS & Email Business Automation</div>
+                </div>
+
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-check"></i></div>
+                    <div class="why-text">Secure Cloud & Relational Database Systems (MySQL/Firebase)</div>
+                </div>
+
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-check"></i></div>
+                    <div class="why-text">Scalable & reliable backend architecture</div>
+                </div>
+
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-check"></i></div>
+                    <div class="why-text">Easy-to-use central Admin Dashboard</div>
+                </div>
+
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-check"></i></div>
+                    <div class="why-text">Dedicated post-development maintenance & support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack Section -->
+    <section class="tech-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fa-solid fa-microchip"></i> Technology Stack</span>
+                <h2 class="section-title">Technologies I Work With</h2>
+                <p class="section-subtitle">Battle-tested tools and frameworks powering your mobile apps, backends, and databases.</p>
+            </div>
+
+            <div class="tech-grid" id="techGrid">
+                <!-- Dynamically populated from config.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section / Portfolio -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fa-solid fa-folder-open"></i> Portfolio</span>
+                <h2 class="section-title">Featured Software Projects</h2>
+                <p class="section-subtitle">Real custom management software and automation systems built for business clients.</p>
+            </div>
+
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="retail">Retail POS</button>
+                <button class="filter-btn" data-filter="gym">Gym Systems</button>
+                <button class="filter-btn" data-filter="management">Business Dashboards</button>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Dynamically populated from config.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container about-grid">
+            <div class="about-img-box">
+                <img src="./assets/images/developer_profile.jpg" alt="Siddharam Kore - Software Developer" id="aboutProfileImg" class="about-img">
+                <div class="about-badge">
+                    <i class="fa-solid fa-code" style="color:var(--accent-cyan)"></i> Software Developer
+                </div>
+            </div>
+
+            <div class="about-content">
+                <span class="section-tag"><i class="fa-solid fa-user-check"></i> About Siddharam Kore</span>
+                <h2>I Build Software That Solves Real Business Problems.</h2>
+                <p class="about-desc">
+                    “I help businesses move from manual work to simple digital systems. Instead of providing one-size-fits-all software, I understand the business process and develop a solution based on the actual requirements.”
+                </p>
+
+                <div class="about-highlights">
+                    <div class="about-hl-item"><i class="fa-solid fa-circle-check"></i> Direct Developer Interaction</div>
+                    <div class="about-hl-item"><i class="fa-solid fa-circle-check"></i> Pragmatic Problem Solving</div>
+                    <div class="about-hl-item"><i class="fa-solid fa-circle-check"></i> End-to-End System Design</div>
+                    <div class="about-hl-item"><i class="fa-solid fa-circle-check"></i> Rapid Ongoing Support</div>
+                </div>
+
+                <div style="display:flex; gap:16px; flex-wrap:wrap;">
+                    <a href="#contact" class="btn btn-primary btn-lg">Work With Me <i class="fa-solid fa-paper-plane"></i></a>
+                    <a href="https://github.com/siddhukore18" id="githubLink" target="_blank" class="btn btn-secondary btn-lg"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="https://linkedin.com/in/siddharamkore" id="linkedinLink" target="_blank" class="btn btn-secondary btn-lg"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Business ROI & Automation Calculator -->
+    <section class="roi-section">
+        <div class="container">
+            <div class="roi-card">
+                <div class="roi-grid">
+                    <div>
+                        <span class="section-tag" style="margin-bottom:8px;"><i class="fa-solid fa-calculator"></i> Savings Calculator</span>
+                        <h2 style="font-size:2rem; margin-bottom:12px;">Calculate Your Business Automation ROI</h2>
+                        <p style="color:var(--text-secondary); margin-bottom:24px;">See how many hours of manual effort and staff costs custom digital software can save your business every single month.</p>
+
+                        <div class="roi-controls">
+                            <div class="roi-field">
+                                <label>Manual Work Hours Spent Per Staff Daily: <span id="roiHoursVal" style="color:var(--accent-cyan)">3</span> hrs/day</label>
+                                <input type="range" id="roiHoursSlider" class="roi-slider" min="1" max="8" value="3">
+                            </div>
+                            <div class="roi-field">
+                                <label>Number of Staff / Operators: <span id="roiStaffVal" style="color:var(--accent-cyan)">4</span> people</label>
+                                <input type="range" id="roiStaffSlider" class="roi-slider" min="1" max="25" value="4">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="roi-results-box">
+                        <span style="font-size:0.9rem; text-transform:uppercase; color:var(--text-muted); font-weight:700;">Estimated Monthly Time Saved</span>
+                        <div class="roi-big-stat" id="roiSavedHours">156 hrs/mo</div>
+                        
+                        <span style="font-size:0.9rem; text-transform:uppercase; color:var(--text-muted); font-weight:700; margin-top:16px; display:block;">Estimated Annual Operational Savings</span>
+                        <div style="font-size:2rem; font-family:var(--font-heading); font-weight:800; color:var(--accent-cyan); margin-top:4px;" id="roiSavedMoney">₹4,68,000/yr</div>
+                        
+                        <p style="font-size:0.8rem; color:var(--text-muted); margin-top:16px;">*Based on standard operational task automation metrics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Info & Quick Actions -->
+                <div class="contact-info-card">
+                    <span class="section-tag"><i class="fa-solid fa-comments"></i> Start A Conversation</span>
+                    <h2>Have an Idea or Want to Automate Your Business?</h2>
+                    <p>Let's discuss your requirements and find the right digital solution for your business.</p>
+
+                    <div class="contact-actions">
+                        <!-- Call Me -->
+                        <a href="tel:+917057453662" class="contact-action-btn">
+                            <div class="contact-action-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="contact-action-text">
+                                <strong>Call Me Directly</strong>
+                                <span class="dev-phone">+91 7057453662</span>
+                            </div>
+                        </a>
+
+                        <!-- WhatsApp Me -->
+                        <a href="https://wa.me/917057453662?text=Hello%20Siddhram%2C%20I%20am%20interested%20in%20developing%20a%20digital%20solution%20for%20my%20business." target="_blank" class="contact-action-btn">
+                            <div class="contact-action-icon" style="background:#25D366"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div class="contact-action-text">
+                                <strong>WhatsApp Me</strong>
+                                <span>Instant response on +91 7057453662</span>
+                            </div>
+                        </a>
+
+                        <!-- Email Me -->
+                        <a href="mailto:siddharamkore18@gmail.com" class="contact-action-btn">
+                            <div class="contact-action-icon" style="background:var(--accent-indigo)"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="contact-action-text">
+                                <strong>Email Me</strong>
+                                <span class="dev-email">siddharamkore18@gmail.com</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div style="padding-top:20px; border-top:1px solid var(--border-color); display:flex; align-items:center; gap:12px;">
+                        <i class="fa-solid fa-location-dot" style="color:var(--accent-cyan); font-size:1.2rem;"></i>
+                        <span style="font-size:0.9rem; color:var(--text-secondary);">Serving local & global SMB businesses remotely and on-site in India.</span>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-card">
+                    <h3 style="font-size:1.6rem; margin-bottom:8px;">Send Project Inquiry</h3>
+                    <p style="color:var(--text-secondary); font-size:0.92rem; margin-bottom:28px;">Fill out your business details below to get a direct proposal and response.</p>
+
+                    <form id="businessContactForm">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label class="form-label" for="formName">Your Name *</label>
+                                <input type="text" id="formName" class="form-input" placeholder="e.g. Rahul Sharma" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="formBusinessName">Business Name *</label>
+                                <input type="text" id="formBusinessName" class="form-input" placeholder="e.g. Fitness Hub Gym" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="formPhone">Phone Number *</label>
+                                <input type="tel" id="formPhone" class="form-input" placeholder="+91 9876543210" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="formEmail">Email Address</label>
+                                <input type="email" id="formEmail" class="form-input" placeholder="name@business.com">
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label class="form-label" for="formBusinessType">Business Type / Category</label>
+                                <select id="formBusinessType" class="form-select">
+                                    <option value="Gym & Fitness">🏋️ Gym & Fitness Center</option>
+                                    <option value="Retail & Shop">🛍️ Retail Shop / Supermarket</option>
+                                    <option value="Hotel & Restaurant">🏨 Hotel / Restaurant / Cafe</option>
+                                    <option value="Clinic & Hospital">🏥 Clinic / Healthcare</option>
+                                    <option value="Services & Consulting">💼 Professional Services</option>
+                                    <option value="Other Custom Business">⚙️ Other / Custom Workflow</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label class="form-label">What Digital Solutions Do You Need?</label>
+                                <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:4px;">
+                                    <label style="font-size:0.85rem; color:var(--text-secondary); display:flex; gap:8px; align-items:center;">
+                                        <input type="checkbox" name="neededService" value="Business Website"> Business Website
+                                    </label>
+                                    <label style="font-size:0.85rem; color:var(--text-secondary); display:flex; gap:8px; align-items:center;">
+                                        <input type="checkbox" name="neededService" value="Mobile App (iOS/Android)"> Mobile App (iOS/Android)
+                                    </label>
+                                    <label style="font-size:0.85rem; color:var(--text-secondary); display:flex; gap:8px; align-items:center;">
+                                        <input type="checkbox" name="neededService" value="Admin Dashboard & Database"> Admin Dashboard & Software
+                                    </label>
+                                    <label style="font-size:0.85rem; color:var(--text-secondary); display:flex; gap:8px; align-items:center;">
+                                        <input type="checkbox" name="neededService" value="WhatsApp & SMS Automation"> WhatsApp Automation
+                                    </label>
+                                    <label style="font-size:0.85rem; color:var(--text-secondary); display:flex; gap:8px; align-items:center;">
+                                        <input type="checkbox" name="neededService" value="Google Review QR System"> Google Review QR System
+                                    </label>
+                                    <label style="font-size:0.85rem; color:var(--text-secondary); display:flex; gap:8px; align-items:center;">
+                                        <input type="checkbox" name="neededService" value="Full System Package"> Complete Ecosystem
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label class="form-label" for="formMessage">Describe Your Requirements</label>
+                                <textarea id="formMessage" class="form-textarea" placeholder="Tell me about your business process, daily problems, or special features you need..." required></textarea>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-lg" style="width:100%">
+                            Send Inquiry via WhatsApp <i class="fa-brands fa-whatsapp"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Widget -->
+    <div class="floating-whatsapp">
+        <span class="whatsapp-tooltip">Chat directly with Siddhram</span>
+        <a href="https://wa.me/917057453662?text=Hello%20Siddhram%2C%20I%20am%20interested%20in%20developing%20a%20digital%20solution%20for%20my%20business.%20I%20would%20like%20to%20discuss%20my%20requirements." id="floatingWaBtn" target="_blank" class="whatsapp-btn" aria-label="WhatsApp Contact Button">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Free Consultation Modal -->
+    <div class="modal-overlay" id="consultationModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('consultationModal')"><i class="fa-solid fa-xmark"></i></button>
+            <span class="section-tag" style="margin-bottom:8px;"><i class="fa-solid fa-handshake"></i> Free Strategy Session</span>
+            <h2 style="font-size:1.8rem; margin-bottom:12px;">Get Your Free Digital Strategy Consultation</h2>
+            <p style="color:var(--text-secondary); font-size:0.95rem; margin-bottom:24px;">I will evaluate your business workflow and show you exactly where custom software and WhatsApp automation can save time and grow revenue.</p>
+
+            <form onsubmit="event.preventDefault(); alert('Request submitted! Siddhram Kore will contact you shortly.'); closeModal('consultationModal');">
+                <div class="form-group" style="margin-bottom:16px;">
+                    <label class="form-label">Your Name</label>
+                    <input type="text" class="form-input" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group" style="margin-bottom:16px;">
+                    <label class="form-label">WhatsApp / Phone Number</label>
+                    <input type="tel" class="form-input" placeholder="+91 7057453662" required>
+                </div>
+                <div class="form-group" style="margin-bottom:24px;">
+                    <label class="form-label">Preferred Date & Time for Call</label>
+                    <input type="datetime-local" class="form-input" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg" style="width:100%">
+                    Confirm Consultation Request <i class="fa-solid fa-check"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Custom Solution Modal -->
+    <div class="modal-overlay" id="customSolutionModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('customSolutionModal')"><i class="fa-solid fa-xmark"></i></button>
+            <span class="section-tag" style="margin-bottom:8px;"><i class="fa-solid fa-wand-magic-sparkles"></i> Custom System</span>
+            <h2 style="font-size:1.8rem; margin-bottom:12px;">Tell Me Your Requirements</h2>
+            <p style="color:var(--text-secondary); font-size:0.95rem; margin-bottom:24px;">Every business is unique. Outline your specific workflow needs and I will draft a dedicated architecture proposal.</p>
+
+            <form onsubmit="event.preventDefault(); alert('Custom proposal request sent! Siddhram will get back to you shortly.'); closeModal('customSolutionModal');">
+                <div class="form-group" style="margin-bottom:16px;">
+                    <label class="form-label">Business Name & Location</label>
+                    <input type="text" class="form-input" placeholder="e.g. Apex Traders, Solapur" required>
+                </div>
+                <div class="form-group" style="margin-bottom:16px;">
+                    <label class="form-label">Contact Phone / WhatsApp</label>
+                    <input type="tel" class="form-input" placeholder="+91 7057453662" required>
+                </div>
+                <div class="form-group" style="margin-bottom:24px;">
+                    <label class="form-label">Describe Your Business Process & Daily Needs</label>
+                    <textarea class="form-textarea" placeholder="Explain your current manual work, staff numbers, and what features you want automated..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg" style="width:100%">
+                    Submit Custom Spec Request <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Project Details Lightbox Modal -->
+    <div class="modal-overlay" id="projectModal">
+        <div class="modal-content" style="max-width:760px;">
+            <button class="modal-close" onclick="closeModal('projectModal')"><i class="fa-solid fa-xmark"></i></button>
+            <div id="projectModalBody">
+                <!-- Dynamically filled by script.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <div class="logo-icon"><i class="fa-solid fa-code"></i></div>
+                        <div class="logo-text">
+                            <span class="logo-name">Siddharam Kore</span>
+                            <span class="logo-tag">SOFTWARE & AUTOMATION</span>
+                        </div>
+                    </a>
+                    <p>Building complete digital systems for local businesses and growing SMBs. Custom Websites, Mobile Apps, Dashboards, and WhatsApp Automation.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#services">14 Services</a>
+                        <a href="#solutions">Business Solutions</a>
+                        <a href="#projects">Projects Portfolio</a>
+                        <a href="#about">About Me</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Solutions</h4>
+                    <div class="footer-links">
+                        <a href="#solutions">Gym Management</a>
+                        <a href="#solutions">Retail & Shop POS</a>
+                        <a href="#solutions">Hotel Booking</a>
+                        <a href="#solutions">Clinic Management</a>
+                        <a href="#solutions">Google Review QR</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="footer-links">
+                        <a href="mailto:siddharamkore18@gmail.com"><i class="fa-solid fa-envelope"></i> siddharamkore18@gmail.com</a>
+                        <a href="tel:+917057453662"><i class="fa-solid fa-phone"></i> +91 7057453662</a>
+                        <a href="https://wa.me/917057453662" target="_blank"><i class="fa-brands fa-whatsapp"></i> +91 7057453662</a>
+                        <a href="https://github.com/siddhukore18" target="_blank"><i class="fa-brands fa-github"></i> GitHub Profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>© <span id="yearVal">2026</span> Siddharam Kore. All rights reserved. Built for real business solutions.</div>
+                <div style="display:flex; gap:16px;">
+                    <a href="#home" style="color:var(--text-muted)">Back to Top <i class="fa-solid fa-arrow-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Application Configuration & Scripts -->
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('yearVal').textContent = new Date().getFullYear();
+        function closeMobileMenu() {
+            document.querySelector('.mobile-menu').classList.remove('open');
+        }
+    </script>
+</body>
+</html>
